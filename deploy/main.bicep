@@ -76,6 +76,7 @@ resource appServiceApp 'Microsoft.Web/sites@2022-03-01' = {
   }
 }
 
+//Define log analytics workspace
 resource logAnalyticsWorkspace 'Microsoft.OperationalInsights/workspaces@2022-10-01' = {
   name: logAnalyticsWorkspaceName
   location: location
